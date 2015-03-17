@@ -22,7 +22,7 @@ class MainViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        view.backgroundColor = UIColor.whiteColor()
+        view.backgroundColor = UIColor(red:250.0/255.0, green:243.0/255.0, blue:222.0/255.0, alpha:1.0)
         setupJellyView()
     }
     

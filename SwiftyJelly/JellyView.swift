@@ -24,6 +24,7 @@ class JellyView: UIView {
 
     override init() {
         super.init()
+        
         displayLink  = CADisplayLink(target: self, selector: "reDraw:")
         displayLink.addToRunLoop(NSRunLoop.mainRunLoop(), forMode: NSRunLoopCommonModes)
         
@@ -31,6 +32,9 @@ class JellyView: UIView {
         self.addGestureRecognizer(tapGesture)
         
         shapeLayer.fillColor = UIColor.orangeColor().CGColor
+        
+        // for performance
+        shapeLayer.drawsAsynchronously = true
         
         layer.addSublayer(shapeLayer)
         
