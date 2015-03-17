@@ -1,0 +1,408 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3EE6067B1AB7A32F00EA7EEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EE6067A1AB7A32F00EA7EEA /* AppDelegate.swift */; };
+		3EE606861AB7A32F00EA7EEA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EE606851AB7A32F00EA7EEA /* Images.xcassets */; };
+		3EE606891AB7A32F00EA7EEA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3EE606871AB7A32F00EA7EEA /* LaunchScreen.xib */; };
+		3EE606951AB7A32F00EA7EEA /* SwiftyJellyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EE606941AB7A32F00EA7EEA /* SwiftyJellyTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3EE6068F1AB7A32F00EA7EEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3EE6066D1AB7A32F00EA7EEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3EE606741AB7A32F00EA7EEA;
+			remoteInfo = SwiftyJelly;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3EE606751AB7A32F00EA7EEA /* SwiftyJelly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftyJelly.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EE606791AB7A32F00EA7EEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EE6067A1AB7A32F00EA7EEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3EE606851AB7A32F00EA7EEA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3EE606881AB7A32F00EA7EEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		3EE6068E1AB7A32F00EA7EEA /* SwiftyJellyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftyJellyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EE606931AB7A32F00EA7EEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EE606941AB7A32F00EA7EEA /* SwiftyJellyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyJellyTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3EE606721AB7A32F00EA7EEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EE6068B1AB7A32F00EA7EEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3EE6066C1AB7A32F00EA7EEA = {
+			isa = PBXGroup;
+			children = (
+				3EE606771AB7A32F00EA7EEA /* SwiftyJelly */,
+				3EE606911AB7A32F00EA7EEA /* SwiftyJellyTests */,
+				3EE606761AB7A32F00EA7EEA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3EE606761AB7A32F00EA7EEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3EE606751AB7A32F00EA7EEA /* SwiftyJelly.app */,
+				3EE6068E1AB7A32F00EA7EEA /* SwiftyJellyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3EE606771AB7A32F00EA7EEA /* SwiftyJelly */ = {
+			isa = PBXGroup;
+			children = (
+				3EE6067A1AB7A32F00EA7EEA /* AppDelegate.swift */,
+				3EE606851AB7A32F00EA7EEA /* Images.xcassets */,
+				3EE606871AB7A32F00EA7EEA /* LaunchScreen.xib */,
+				3EE606781AB7A32F00EA7EEA /* Supporting Files */,
+			);
+			path = SwiftyJelly;
+			sourceTree = "<group>";
+		};
+		3EE606781AB7A32F00EA7EEA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3EE606791AB7A32F00EA7EEA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3EE606911AB7A32F00EA7EEA /* SwiftyJellyTests */ = {
+			isa = PBXGroup;
+			children = (
+				3EE606941AB7A32F00EA7EEA /* SwiftyJellyTests.swift */,
+				3EE606921AB7A32F00EA7EEA /* Supporting Files */,
+			);
+			path = SwiftyJellyTests;
+			sourceTree = "<group>";
+		};
+		3EE606921AB7A32F00EA7EEA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3EE606931AB7A32F00EA7EEA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3EE606741AB7A32F00EA7EEA /* SwiftyJelly */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EE606981AB7A32F00EA7EEA /* Build configuration list for PBXNativeTarget "SwiftyJelly" */;
+			buildPhases = (
+				3EE606711AB7A32F00EA7EEA /* Sources */,
+				3EE606721AB7A32F00EA7EEA /* Frameworks */,
+				3EE606731AB7A32F00EA7EEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyJelly;
+			productName = SwiftyJelly;
+			productReference = 3EE606751AB7A32F00EA7EEA /* SwiftyJelly.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3EE6068D1AB7A32F00EA7EEA /* SwiftyJellyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EE6069B1AB7A32F00EA7EEA /* Build configuration list for PBXNativeTarget "SwiftyJellyTests" */;
+			buildPhases = (
+				3EE6068A1AB7A32F00EA7EEA /* Sources */,
+				3EE6068B1AB7A32F00EA7EEA /* Frameworks */,
+				3EE6068C1AB7A32F00EA7EEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3EE606901AB7A32F00EA7EEA /* PBXTargetDependency */,
+			);
+			name = SwiftyJellyTests;
+			productName = SwiftyJellyTests;
+			productReference = 3EE6068E1AB7A32F00EA7EEA /* SwiftyJellyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3EE6066D1AB7A32F00EA7EEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Vivian Keating";
+				TargetAttributes = {
+					3EE606741AB7A32F00EA7EEA = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					3EE6068D1AB7A32F00EA7EEA = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 3EE606741AB7A32F00EA7EEA;
+					};
+				};
+			};
+			buildConfigurationList = 3EE606701AB7A32F00EA7EEA /* Build configuration list for PBXProject "SwiftyJelly" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3EE6066C1AB7A32F00EA7EEA;
+			productRefGroup = 3EE606761AB7A32F00EA7EEA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3EE606741AB7A32F00EA7EEA /* SwiftyJelly */,
+				3EE6068D1AB7A32F00EA7EEA /* SwiftyJellyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3EE606731AB7A32F00EA7EEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EE606891AB7A32F00EA7EEA /* LaunchScreen.xib in Resources */,
+				3EE606861AB7A32F00EA7EEA /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EE6068C1AB7A32F00EA7EEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3EE606711AB7A32F00EA7EEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EE6067B1AB7A32F00EA7EEA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EE6068A1AB7A32F00EA7EEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EE606951AB7A32F00EA7EEA /* SwiftyJellyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3EE606901AB7A32F00EA7EEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3EE606741AB7A32F00EA7EEA /* SwiftyJelly */;
+			targetProxy = 3EE6068F1AB7A32F00EA7EEA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3EE606871AB7A32F00EA7EEA /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3EE606881AB7A32F00EA7EEA /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3EE606961AB7A32F00EA7EEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3EE606971AB7A32F00EA7EEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3EE606991AB7A32F00EA7EEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SwiftyJelly/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3EE6069A1AB7A32F00EA7EEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SwiftyJelly/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3EE6069C1AB7A32F00EA7EEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SwiftyJellyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftyJelly.app/SwiftyJelly";
+			};
+			name = Debug;
+		};
+		3EE6069D1AB7A32F00EA7EEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SwiftyJellyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftyJelly.app/SwiftyJelly";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3EE606701AB7A32F00EA7EEA /* Build configuration list for PBXProject "SwiftyJelly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EE606961AB7A32F00EA7EEA /* Debug */,
+				3EE606971AB7A32F00EA7EEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EE606981AB7A32F00EA7EEA /* Build configuration list for PBXNativeTarget "SwiftyJelly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EE606991AB7A32F00EA7EEA /* Debug */,
+				3EE6069A1AB7A32F00EA7EEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EE6069B1AB7A32F00EA7EEA /* Build configuration list for PBXNativeTarget "SwiftyJellyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EE6069C1AB7A32F00EA7EEA /* Debug */,
+				3EE6069D1AB7A32F00EA7EEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3EE6066D1AB7A32F00EA7EEA /* Project object */;
+}
