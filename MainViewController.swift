@@ -53,7 +53,7 @@ class MainViewController: UIViewController {
             toItem: nil,
             attribute: NSLayoutAttribute.Height,
             multiplier: 0,
-            constant: 44)
+            constant: 88)
 
         let jellyButtonWidth = NSLayoutConstraint(item: jellyView,
             attribute: NSLayoutAttribute.Width,
@@ -61,7 +61,7 @@ class MainViewController: UIViewController {
             toItem: nil,
             attribute: NSLayoutAttribute.Width,
             multiplier: 0,
-            constant: 128)
+            constant: 256)
         
         view.addConstraint(jellyButtonCenterX)
         view.addConstraint(jellyButtonCenterY)
