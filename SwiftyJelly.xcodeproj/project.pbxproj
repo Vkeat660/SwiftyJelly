@@ -11,6 +11,9 @@
 		3EE606861AB7A32F00EA7EEA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EE606851AB7A32F00EA7EEA /* Images.xcassets */; };
 		3EE606891AB7A32F00EA7EEA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3EE606871AB7A32F00EA7EEA /* LaunchScreen.xib */; };
 		3EE606951AB7A32F00EA7EEA /* SwiftyJellyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EE606941AB7A32F00EA7EEA /* SwiftyJellyTests.swift */; };
+		3EE606A11AB7AC3300EA7EEA /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EE606A01AB7AC3300EA7EEA /* MainViewController.swift */; };
+		3EE606A31AB7B1FC00EA7EEA /* JellyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EE606A21AB7B1FC00EA7EEA /* JellyView.swift */; };
+		3EE606A51AB7C0D800EA7EEA /* Defines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EE606A41AB7C0D800EA7EEA /* Defines.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +35,9 @@
 		3EE6068E1AB7A32F00EA7EEA /* SwiftyJellyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftyJellyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EE606931AB7A32F00EA7EEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3EE606941AB7A32F00EA7EEA /* SwiftyJellyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyJellyTests.swift; sourceTree = "<group>"; };
+		3EE606A01AB7AC3300EA7EEA /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainViewController.swift; path = ../MainViewController.swift; sourceTree = "<group>"; };
+		3EE606A21AB7B1FC00EA7EEA /* JellyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JellyView.swift; sourceTree = "<group>"; };
+		3EE606A41AB7C0D800EA7EEA /* Defines.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Defines.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +80,9 @@
 			isa = PBXGroup;
 			children = (
 				3EE6067A1AB7A32F00EA7EEA /* AppDelegate.swift */,
+				3EE606A01AB7AC3300EA7EEA /* MainViewController.swift */,
+				3EE606A21AB7B1FC00EA7EEA /* JellyView.swift */,
+				3EE606A41AB7C0D800EA7EEA /* Defines.swift */,
 				3EE606851AB7A32F00EA7EEA /* Images.xcassets */,
 				3EE606871AB7A32F00EA7EEA /* LaunchScreen.xib */,
 				3EE606781AB7A32F00EA7EEA /* Supporting Files */,
@@ -206,6 +215,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3EE6067B1AB7A32F00EA7EEA /* AppDelegate.swift in Sources */,
+				3EE606A11AB7AC3300EA7EEA /* MainViewController.swift in Sources */,
+				3EE606A51AB7C0D800EA7EEA /* Defines.swift in Sources */,
+				3EE606A31AB7B1FC00EA7EEA /* JellyView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,6 +335,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SwiftyJelly/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -333,6 +346,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SwiftyJelly/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
