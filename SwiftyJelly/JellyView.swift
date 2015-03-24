@@ -82,17 +82,17 @@ class JellyView: UIView {
     
     func drawPath(){
         
-        let offset = CGFloat(1600.0 * time * Double(sin(time * π * 2.0 / 0.4)) * Double(exp(-5.0 * time)))
+        let offset  = CGFloat(1600.0 * time * Double(sin(time * π * 2.0 / 0.4))           * Double(exp(-5.0 * time)))
         let offset2 = CGFloat(1400.0 * time * Double(sin(time * π * 2.0 / 0.4 + π * 0.9)) * Double(exp(-5.0 * time)))
         
-        let controlPoint1 = CGPoint(x: (topLeft.x      + topRight.x            )/2,
-                                    y: (topLeft.y      + topRight.y    - offset2)/2)
-        let controlPoint2 = CGPoint(x: (topRight.x     + bottomRight.x + offset)/2,
-                                    y: (topRight.y     + bottomRight.y         )/2)
-        let controlPoint3 = CGPoint(x: (bottomRight.x  + bottomLeft.x          )/2,
-                                    y: (bottomRight.y  + bottomLeft.y  + offset2)/2)
-        let controlPoint4 = CGPoint(x: (bottomLeft.x   + topLeft.x     - offset)/2,
-                                    y: (bottomLeft.y   + topLeft.y             )/2)
+        let controlPoint1 = CGPoint(x: (topLeft.x      + topRight.x              )/2,
+                                    y: (topLeft.y      + topRight.y    - offset2 )/2)
+        let controlPoint2 = CGPoint(x: (topRight.x     + bottomRight.x + offset  )/2,
+                                    y: (topRight.y     + bottomRight.y           )/2)
+        let controlPoint3 = CGPoint(x: (bottomRight.x  + bottomLeft.x            )/2,
+                                    y: (bottomRight.y  + bottomLeft.y  + offset2 )/2)
+        let controlPoint4 = CGPoint(x: (bottomLeft.x   + topLeft.x     - offset  )/2,
+                                    y: (bottomLeft.y   + topLeft.y               )/2)
         
         let path = UIBezierPath()
         path.moveToPoint(topLeft)
