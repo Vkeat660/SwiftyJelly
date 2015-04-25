@@ -22,8 +22,8 @@ class JellyView: UIView {
     
     var time : CFTimeInterval = 5
 
-    override init() {
-        super.init()
+    override init(frame: CGRect) {
+        super.init(frame: frame)
         
         displayLink  = CADisplayLink(target: self, selector: "reDraw:")
         displayLink.addToRunLoop(NSRunLoop.mainRunLoop(), forMode: NSRunLoopCommonModes)
@@ -37,11 +37,6 @@ class JellyView: UIView {
         shapeLayer.drawsAsynchronously = true
         
         layer.addSublayer(shapeLayer)
-        
-    }
-
-    override init(frame: CGRect) {
-        super.init(frame: frame)
     }
     
     required init(coder aDecoder: NSCoder) {
