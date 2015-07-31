@@ -10,17 +10,15 @@ import UIKit
 
 class JellyView: UIView {
     
-    let shapeLayer = CAShapeLayer()
-    var topLeft : CGPoint = CGPointZero
-    var topRight : CGPoint = CGPointZero
-    var bottomLeft : CGPoint = CGPointZero
-    var bottomRight : CGPoint = CGPointZero
+    private let shapeLayer = CAShapeLayer()
+    private var topLeft : CGPoint = CGPointZero
+    private var topRight : CGPoint = CGPointZero
+    private var bottomLeft : CGPoint = CGPointZero
+    private var bottomRight : CGPoint = CGPointZero
     
-    var path = UIBezierPath()
+    private var displayLink : CADisplayLink!
     
-    var displayLink : CADisplayLink!
-    
-    var time : CFTimeInterval = 5
+    private var time : CFTimeInterval = 5
 
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -31,7 +29,7 @@ class JellyView: UIView {
         let tapGesture = UITapGestureRecognizer(target: self, action: "buttonTapped")
         self.addGestureRecognizer(tapGesture)
         
-        shapeLayer.fillColor = UIColor.orangeColor().CGColor
+        shapeLayer.fillColor = UIColor("#F44336").CGColor
         
         // for performance
         shapeLayer.drawsAsynchronously = true
