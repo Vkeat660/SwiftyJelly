@@ -27,12 +27,15 @@ class JellyView: UIView {
         displayLink.addToRunLoop(NSRunLoop.mainRunLoop(), forMode: NSRunLoopCommonModes)
         
         let tapGesture = UITapGestureRecognizer(target: self, action: "buttonTapped")
-        self.addGestureRecognizer(tapGesture)
+        addGestureRecognizer(tapGesture)
         
         shapeLayer.fillColor = UIColor("#F44336").CGColor
         
         // for performance
         shapeLayer.drawsAsynchronously = true
+        shapeLayer.shadowOffset = CGSize(width: 1,height: 2)
+        shapeLayer.shadowColor = UIColor("#757575").CGColor
+        shapeLayer.shadowOpacity = 1.0
         
         layer.addSublayer(shapeLayer)
     }
